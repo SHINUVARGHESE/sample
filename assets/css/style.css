@@ -4,7 +4,7 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
-}
+}   
 
 body::before {
   content: "";
