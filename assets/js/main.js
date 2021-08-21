@@ -311,7 +311,7 @@ $registrationForm.validate({
 function submitForm() {
 
   $.ajax({
-      url:"https://script.google.com/macros/s/AKfycbwWOuOQLHLrAqVFMDVGDVLxs25E-wtAteSiLXF1A8QB9-NlgiHCkhd268K-cVc1BOlG2Q/exec",
+      url:"https://script.google.com/macros/s/AKfycbwMPmQP5c_-tIb8w6wcYyDSEBRoM2ZiTy136__iPlJDfZrSQQM/exec",
       data:$("#submit-form").serialize(),
       method:"post",
       success:function (response){
